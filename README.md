@@ -9,6 +9,9 @@ This doesn't sandbox the command at all, so you'll need `ocamlformat` available 
 opam install ocamlformat
 ```
 
+Note: There's a [docker](https://github.com/arenadotio/pre-commit-ocamlformat/tree/docker) branch
+which sandboxes this, but it's a lot slower and barely tested.
+
 ## Usage
 
 In your .pre-commit-config.yaml:
