@@ -1,0 +1,8 @@
+---
+- id: ocamlformat
+  name: ocamlformat
+  description: Auto-formatter for OCaml code
+  entry: ocamlformat
+  language: system
+  files: "\\.mli?$"
+  args: ["-i"]
