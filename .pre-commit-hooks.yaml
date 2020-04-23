@@ -2,7 +2,7 @@
 - id: ocamlformat
   name: ocamlformat
   description: Auto-formatter for OCaml code
-  entry: ocamlformat
-  language: system
+  entry: opam exec -- ocamlformat
+  language: docker
   files: "\\.mli?$"
   args: ["-i"]
